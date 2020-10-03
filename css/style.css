@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #444474;
+    height: 100vh;
+}
+
+#jogo{
+    display: flex;
+    background:#200030;
+    height: 400px;
+    width: 600px;
+    border: gray solid 0.3px;
+}
+
+#pad{
+    background: white;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+}
